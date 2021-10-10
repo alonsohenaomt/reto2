@@ -19,6 +19,7 @@ function eliminarMensaje(identificador) {
         statusCode: {
             204: function () {
                 alert('Se ha eliminado el mensaje');
+                consultarMensajes();
             }
         },
     });

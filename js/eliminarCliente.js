@@ -19,6 +19,7 @@ function eliminarCliente(identificador) {
         statusCode: {
             204: function () {
                 alert('Se ha eliminado los datos del cliente');
+                consultarCliente();
             }
         },
     });
